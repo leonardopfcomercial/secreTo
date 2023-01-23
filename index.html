@@ -14,7 +14,7 @@
       src: url("font.otf") format("opentype");
     }
     *, *::before, *::after {
-      box-sizing: border-box;
+    
       font-family: Gotham Rounded;
     }
     body {
@@ -26,24 +26,18 @@
       align-items: center;
       width: 100vw;
       height: 100vh;
-      background: url("bg.jpeg");
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-blend-mode: darken;
-      background-color: rgba(0, 0, 0, 0.548);
+      background-color: rgb(255, 255, 255);
 
     }
-    .container {
-      width: 700px;
-      max-width: 90%;
-    }
+
     .black {
-      background-color: black;
       padding: 10px;
       text-align: center;
       border-radius: 20px;
-      box-shadow: 0 0 10px 2px black;
     }
     .answer {
       display: grid;
@@ -61,17 +55,17 @@
       border-radius: 10px;
       padding: 5px 10px;
       font-size: 30px;
-      background-color: #f7ce6a;
+      background-color: #0B5891;
       outline: none;
       text-decoration: none;
-      color: black;
+      color: rgb(255, 255, 255);
     }
     .black h1 {
-      color: yellow;
+      color: #0B5891;
     }
     .black p {
-      font-size: 18px;
-      color: white;
+      font-size: 30px;
+      color: rgb(0, 0, 0);
     }
     .hide {
       display: none;
@@ -105,7 +99,7 @@
 <div id="terceira" class="hide">
 <div class="question">
 <h1>Pregunta 3</h1>
-<p>Vídeo con acceso limitado para que solo unas pocas personas puedan verlo al mismo tiempo... <br>¿Tienes la intención de verlo hasta el final?</p>
+<p>Vídeo con acceso limitado para que solo unas pocas personas puedan verlo al mismo tiempo... <br><br>¿Tienes la intención de verlo hasta el final?</p>
 </div>
 <div class="answer">
 <button class="btn" onclick="redirect()">SÍ</button>
@@ -113,7 +107,7 @@
 </div>
 </div>
 </div>
-<p style="text-align: center; font-weight: bold; color:white">© 2023 – Todos los derechos reservados. Este sitio no es parte ni está respaldado por Facebook o Meta.</p>
+<p style="text-align: center; font-weight: bold; color:rgb(0, 0, 0)">© 2023 – Todos los derechos reservados. Este sitio no es parte ni está respaldado por Facebook o Meta.</p>
 </div>
 <script>
     function segunda() {
